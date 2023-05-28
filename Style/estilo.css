@@ -1,0 +1,125 @@
+
+.title__div{
+    margin: 35px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.title__profile{
+    border-radius: 50%;
+    width: 35%;
+}   
+
+.title__container{
+    padding: 10px;
+}
+
+.title__bio{
+    display: flex;
+    font-size: 52px;
+    font-weight: 700;
+    text-align: center;
+    margin: 15px;
+    padding: 10px;
+}
+
+.title__subsection{
+    display: flex;
+    width: 751px;
+    height: 52px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    color: #4e4e4e;
+    margin: 25px 80px 25px;
+    text-align: center;
+}
+
+.title__network{
+    display: flex;
+    width: 751px;
+    height: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: 'Raleway';
+    color: #464646;
+    justify-content: center;    
+}
+
+.title__network__item{
+    margin-inline-start: 5rem;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .title__div {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .title__profile {
+        width: 50%;
+    }
+
+    .title__container {
+        padding: 5px;
+    }
+
+    .title__bio {
+        font-size: 32px;
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .title__subsection {
+        width: 100%;
+        margin: 15px;
+    }
+
+    .title__network {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .title__network__item {
+        margin: 10px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .title__div {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+
+    .title__profile {
+        width: 40%;
+    }
+
+    .title__container {
+        padding: 5px;
+    }
+
+    .title__bio {
+        font-size: 42px;
+        margin: 10px;
+        padding: 5px;
+    }
+
+    .title__subsection {
+        width: 100%;
+        margin: 15px;
+    }
+
+    .title__network {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    .title__network__item {
+        margin: 10px;
+    }
+}
